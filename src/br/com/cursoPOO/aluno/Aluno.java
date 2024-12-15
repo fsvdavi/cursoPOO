@@ -8,7 +8,7 @@ public class Aluno {
 	 int idade;
 
 
-	 void exibirDados() {
+	void exibirDados() {
 	    System.out.println("Aluno: " + nome + ", Curso: " + curso);
 	 }
 
@@ -20,5 +20,27 @@ public class Aluno {
 	    notaFinal = novaNota;
 	    System.out.println("A nota foi alterada com êxito");
 	    }
+	
+	//CONSTRUTORES
+	
+	 Aluno() {
+	     System.out.println("A classe aluno foi instaciada!");
+	    }
+	 
+	 Aluno(String nome, int idade) {
+		 this.nome = nome;
+		 this.idade = idade; 
+	 }
+	 
+	 Aluno(String curso, double notaFinal) {
+		 this.curso = curso;
+		 this.notaFinal = notaFinal; 
+		 	if (this.notaFinal >= 6.0) {
+		 		System.out.println("Parabéns, você foi aprovado!");		 		
+		 	} else {
+		 		System.out.println("Você foi reprovado!");
+		 	}
+	 }
+	 
 	}
 
