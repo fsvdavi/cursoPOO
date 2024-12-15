@@ -30,11 +30,13 @@ public class Aluno {
 	 Aluno(String nome, int idade) {
 		 this.nome = nome;
 		 this.idade = idade; 
+		 System.out.println("O nome do aluno é " + this.nome + " e possui " + this.idade + "anos.");
 	 }
 	 
 	 Aluno(String curso, double notaFinal) {
 		 this.curso = curso;
 		 this.notaFinal = notaFinal; 
+		 System.out.println("O curso do aluno é " + this.curso);
 		 	if (this.notaFinal >= 6.0) {
 		 		System.out.println("Parabéns, você foi aprovado!");		 		
 		 	} else {
