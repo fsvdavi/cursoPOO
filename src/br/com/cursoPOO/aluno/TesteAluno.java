@@ -26,9 +26,22 @@ public class TesteAluno {
 	  	    a3.notaFinal = 4.8;
 	  	    a3.idade = 16;
 			
-	  	  System.out.println("O nome do aluno é: " + a3.nome);
+	  	System.out.println("O nome do aluno é: " + a3.nome);
 
 
+	  	//CONSTRUTORES
+	  	  
+	  	Aluno a11 = new Aluno();
+	  	
+	  	Aluno a21 = new Aluno("Davi", 15);
+	  	
+	  	Aluno a31 = new Aluno("Informática", 6.0);
+	  	
+	  	
+	  	
+	  	
+	  		 
+	  	 
 	}
 
 }
