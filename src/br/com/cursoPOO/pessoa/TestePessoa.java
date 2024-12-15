@@ -26,6 +26,15 @@ public class TestePessoa {
 		p3.emprego = "Advogado";
 		p3.anoNascimento = 1983;
 		p3.altura = 1.70;	
+		
+		//CONSTRUTORES
+		
+		Pessoa p11 = new Pessoa();
+		
+		Pessoa p21 = new Pessoa("Sara", "Viana");
+		
+		Pessoa p31 = new Pessoa(1983, "advogado");
+		
 	}
 	
 	
