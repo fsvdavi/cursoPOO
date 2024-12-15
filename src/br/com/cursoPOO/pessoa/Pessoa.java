@@ -24,5 +24,24 @@ public class Pessoa {
     }
     
     
+    //CONSTRUTORES
+    
+    Pessoa() {
+    	System.out.println("A classe pessoa foi instaciada!");
+    }
+    
+    Pessoa(String nome, String sobrenome) {
+    	this.nome = nome;
+    	this.sobrenome = sobrenome;
+    	System.out.println("O nome da pessoa é: " + this.nome + " " + this.sobrenome);  	
+    }
+    
+    Pessoa(int anoNascimento, String emprego) {
+    	this.anoNascimento = anoNascimento;
+    	this.emprego = emprego;
+    	System.out.println("A pessoa trabalha como " + this.emprego + " e nasceu em " + this.anoNascimento);	
+    }
+    
+    
 }
 
