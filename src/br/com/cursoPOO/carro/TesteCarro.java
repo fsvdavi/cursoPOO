@@ -28,7 +28,20 @@ public class TesteCarro {
 		civic.placa = "ZZZ-321";
 		civic.capacidadePassageiro = 5;
 		civic.capacidadeCombustivel = 42.1;
-		civic.consumoCombustivel = 4.0;		
+		civic.consumoCombustivel = 4.0;	
+		
+		//CONSTRUTORES
+		
+		Carro uno1 = new Carro();
+		System.out.println(uno1.capacidadePassageiro);
+		
+		Carro hillux1 = new Carro("Toyota", "Hilux", "YYY-123", 3, 53.4, 3.3);
+		
+		Carro civic1 = new Carro("Honda", "Civic", 2015);
+		
+		
 	}
+	
+		
 	
 }
