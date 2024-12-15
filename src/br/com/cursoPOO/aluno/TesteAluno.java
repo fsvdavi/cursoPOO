@@ -9,9 +9,7 @@ public class TesteAluno {
 	    	a1.curso = "Informática";
 	    	a1.notaFinal = 6.3;
 	    	a1.idade = 17;
-	    	
-	    	
-	    
+	    	  
 	    Aluno a2 = new Aluno();
 			a2.nome = "Jamile";
 			a2.matricula = "2023201106";
@@ -33,9 +31,9 @@ public class TesteAluno {
 	  	  
 	  	Aluno a11 = new Aluno();
 	  	
-	  	Aluno a21 = new Aluno("Davi", 15);
+	  	Aluno a21 = new Aluno("Jamile", 16);
 	  	
-	  	Aluno a31 = new Aluno("Informática", 6.0);
+	  	Aluno a31 = new Aluno("química", 4.8);
 	  	
 	  	
 	  	

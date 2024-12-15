@@ -28,9 +28,9 @@ public class TesteLampada {
 		
 		Lampada l11 = new Lampada();
 		
-		Lampada l21 = new Lampada("LED", "bulbo");
+		Lampada l21 = new Lampada("fluorescente", "tubo");
 		
-		Lampada l31 = new Lampada(true, 17.99, 9);
+		Lampada l31 = new Lampada(true, 8.99, 60);
 		
 		
 	}
